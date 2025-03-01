@@ -1,0 +1,157 @@
+/* ======================
+  table of contents
+=========================
+
+  1. Title
+  2. Form
+  3. Animation
+  4. Responsive
+*/
+
+/* ==========
+  1. Title
+=============*/
+
+.field {
+  display: flex;
+  justify-content: space-between;
+}
+.email-icon {
+  color: var(--subtitle);
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+.contact .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+.contact p {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+  line-height: 1.6rem;
+}
+.contact div {
+  display: flex;
+  align-items: center;
+}
+
+/* ==========
+  2. Form
+=============*/
+
+
+.contact label {
+  color: var(--subtitle);
+}
+#email,
+#message {
+  all: unset;
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 1px solid rgb(63, 63, 70);
+  width: 19rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+.light #email,
+.light #message {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(128, 128, 128, 0.551);
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.32);
+  color: #232324;
+}
+#email:focus,
+#message:focus,
+#email:hover,
+#message:hover {
+  border: 1px solid rgb(45, 212, 191);
+}
+
+.light #email:focus,
+.light #message:focus,
+.light #email:hover,
+.light #message:hover {
+  border: 1px solid rgb(78, 80, 80);
+}
+
+#message {
+  min-height: 9rem;
+}
+.textarea {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.submit {
+  background-color: rgba(36, 37, 46, 1);
+  padding: 0.75rem 2rem;
+  text-align: center;
+  font-size: 1.05rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-top: 1.8rem;
+  border: 1px solid rgb(63, 63, 70);
+}
+.submit:hover {
+  scale: 0.95;
+}
+.after-submit {
+  font-size: 1.2rem;
+  margin-top: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+
+/* ==============
+  3. Animation
+=================*/
+.success-animation {
+height: 2.7rem;
+}
+.contact-animation {
+  height: 355px;
+}
+
+/* ==============
+  4. Responsive
+=================*/
+
+@media (max-width: 700px) {
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+  }
+  .contact form div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  #email,
+  #message {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+  }
+  .submit {
+    width: 30%;
+    align-self: center;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  #email,
+  #message {
+    width: 16rem;
+  }
+}
+@media (max-width: 799px) {
+  .contact .field div:last-child {
+    display: none;
+  }
+}
