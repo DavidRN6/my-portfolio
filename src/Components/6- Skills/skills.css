@@ -1,0 +1,87 @@
+/* ======================
+  table of contents
+=========================
+
+  1. Title
+  2. Form
+  3. Animation
+  4. Responsive
+*/
+
+/* ==========
+  1. Title
+=============*/
+
+.skills-title {
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.skill-icon {
+    color: var(--subtitle);
+    margin-right: 1rem;
+}
+.skills p {
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+
+
+.skill-img {
+    width: 60px;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.skill-item {
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 15px;
+  width: 130px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: var(--bgHeader);
+}
+
+.skill-item:hover {
+  border-color: #007bff;
+  transform: translateY(-5px);
+}
+
+.skill-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-item h3 {
+  font-size: 15px;
+  margin: 0;
+  color: var(--title);
+}
+
+@media (max-width: 570px) {
+  .skills-list {
+    gap: 20px;
+    padding: 0px;
+  }
+  .skill-item {
+    width: 120px;
+  }
+  .skill-img {
+    width: 60px;
+    height: 60px;
+  }
+}

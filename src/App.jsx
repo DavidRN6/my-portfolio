@@ -5,6 +5,7 @@ import Contact from "./Components/4-Contact/Contact";
 import Footer from "./Components/5-Footer/Footer";
 import { IoIosArrowUp } from "react-icons/io";
 import { useEffect, useState } from "react";
+import Skills from "./Components/6- Skills/Skills";
 
 function App() {
   const [scroll, setScroll] = useState(false);
@@ -24,6 +25,8 @@ function App() {
       <Header />
       <div className="line" />
       <Hero />
+      <div className="line" />
+      <Skills />
       <div className="line" />
       <Main />
       <div className="line" />
