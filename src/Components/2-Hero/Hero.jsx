@@ -15,7 +15,7 @@ function Hero() {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(0.9)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            src="me.jpeg"
+            src="me.webp"
             className="avatar"
             alt=""
           />
@@ -67,7 +67,7 @@ function Hero() {
         </div>
 
         <div className="cv">
-          <a href="CV(2).pdf" download>
+          <a href="CV(3).pdf" download>
             Download CV
           </a>
         </div>
