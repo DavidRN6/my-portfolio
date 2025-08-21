@@ -32,6 +32,16 @@ function Hero() {
           transition={{ duration: 1 }}
           className="title"
         >
+          David Raoof
+        </motion.h1>
+
+        <motion.h1
+          // animation
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="job-title"
+        >
           Frontend Developer
         </motion.h1>
 

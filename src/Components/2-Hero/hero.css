@@ -34,6 +34,10 @@
   margin: 24px 0;
   color: var(--title);
 }
+.job-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
 .info {
   color: var(--subtitle);
   font-size: 0.9rem;
