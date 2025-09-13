@@ -76,7 +76,7 @@ function Main() {
               <img loading="lazy" src={item.image} alt="" />
 
               <div className="box">
-                <h1 className="name">{item.name}</h1>
+                <h3 className="name">{item.name}</h3>
                 <p className="info">{item.info}</p>
                 <div className="link">
                   <div>
