@@ -1,12 +1,12 @@
 export const myProject = [
   {
     id: 1,
-    name: "Art Of Spirit",
+    name: "Vesto",
     category: "react",
-    info: "Built a full-stack eCommerce admin dashboard with React, Node.js, Express, and MongoDB, featuring order management, secure authentication, and Cloudinary-based product handling.",
-    image: "projects/artofspirit.webp",
-    link: "https://art-of-spirit.vercel.app/",
-    code: "https://github.com/DavidRN6/Art-Of-Spirit",
+    info: "An e-commerce website for a clothing store, allowing users to view products, select color and size, place orders, and contact the seller through social media. Built with React, Tailwind CSS, Node.js, Express, and MongoDB.",
+    image: "projects/Vesto.webp",
+    link: "https://vesto-fashion.vercel.app/",
+    code: "https://github.com/DavidRN6/Vesto",
     allProjects: true,
   },
   {
@@ -21,12 +21,12 @@ export const myProject = [
   },
   {
     id: 3,
-    name: "Vesto",
+    name: "Art Of Spirit",
     category: "react",
-    info: "An e-commerce website for a clothing store, allowing users to view products, select color and size, place orders, and contact the seller through social media. Built with React, Tailwind CSS, Node.js, Express, and MongoDB.",
-    image: "projects/Vesto.webp",
-    link: "https://vesto-mauve.vercel.app/",
-    code: "https://github.com/DavidRN6/Vesto",
+    info: "Built a full-stack eCommerce admin dashboard with React, Node.js, Express, and MongoDB, featuring order management, secure authentication, and Cloudinary-based product handling.",
+    image: "projects/artofspirit.webp",
+    link: "https://art-of-spirit.vercel.app/",
+    code: "https://github.com/DavidRN6/Art-Of-Spirit",
     allProjects: true,
   },
   {
