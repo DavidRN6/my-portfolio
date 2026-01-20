@@ -21,6 +21,16 @@ export const myProject = [
   },
   {
     id: 3,
+    name: "iLaw Chat Bot",
+    category: "react",
+    info: "an AI-powered legal chatbot built collaboratively with a team of law students, designed to assist with legal inquiries, explain legal concepts, and support research in Egyptian law. Focuses on simplifying legal information and legal issues.",
+    image: "projects/iLaw.webp",
+    link: "https://i-law.vercel.app/",
+    code: "https://github.com/DavidRN6/iLaw",
+    allProjects: true,
+  },
+  {
+    id: 4,
     name: "Art Of Spirit",
     category: "react",
     info: "Built a full-stack eCommerce admin dashboard with React, Node.js, Express, and MongoDB, featuring order management, secure authentication, and Cloudinary-based product handling.",
@@ -30,7 +40,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "Hagogah",
     category: "react",
     info: "Hagogah Restaurant’s website is a platform for the famous Hagogah restaurant, where customers can view the menu, order food, explore different dishes along with their prices, and access the restaurant’s social media pages",
@@ -40,7 +50,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 5,
+    id: 6,
     name: "Shopsy",
     category: "react",
     info: "Developed a responsive clothing e-commerce web app using React.js, Tailwind CSS, and AOS, with dark mode, image sliders, Search Bar, scroll animations, and a clean UI built from reusable components.",
@@ -50,7 +60,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 6,
+    id: 7,
     name: "My Travel Journal",
     category: "react",
     info: "Built a personal website with React.js featuring a clean, responsive design with soft colors and elegant UX. It includes a travel journal section with a map, allowing users to explore and share their travel experiences.",
@@ -60,7 +70,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 7,
+    id: 8,
     name: "Portfolio (old)",
     category: "javascript",
     info: "Created an early personal portfolio with HTML, CSS, and JavaScript to showcase my skills and projects, featuring a simple, clean layout. It highlights my journey as a developer and serves as a foundation for my current portfolio.",
@@ -70,7 +80,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 8,
+    id: 9,
     name: "CRUDS",
     category: "javascript",
     info: "Developed a product management program to add products with price, taxes, discount, and quantity, automatically calculating totals for inventory and sales tracking. It features a user-friendly interface for managing product data.",
@@ -80,7 +90,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 9,
+    id: 10,
     name: "Iphone",
     category: "javascript",
     info: "Built a dynamic website showcasing iPhone categories with color options, where selecting a color updates the site's design. Created with HTML, CSS, and JavaScript, emphasizing interactivity and responsiveness.",
@@ -90,7 +100,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 10,
+    id: 11,
     name: "XO Game",
     category: "javascript",
     info: "Created a dynamic iPhone website where selecting a color updates the entire site's design, offering an interactive experience. This project showcases my skills in creating responsive and engaging web applications.",
@@ -100,7 +110,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 11,
+    id: 12,
     name: "Silencer",
     category: "css",
     info: "A simple practice project using Bootstrap, featuring a clean, responsive design and hands-on experience with Bootstrap's grid and components. it boasts a modern layout with a focus on usability and aesthetics.",
@@ -110,7 +120,7 @@ export const myProject = [
     allProjects: true,
   },
   {
-    id: 12,
+    id: 13,
     name: "Adidas",
     category: "css",
     info: "My first HTML & CSS project, featuring a simple layout to showcase my skills and projects, though non-responsive and basic. It serves as a foundation for my current portfolio, highlighting my journey as a developer.",

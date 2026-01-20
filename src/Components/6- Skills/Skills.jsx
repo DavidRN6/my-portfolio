@@ -54,11 +54,16 @@ const skillItem = [
   },
   {
     id: 11,
+    Image: "skills/query.webp",
+    name: "React Query",
+  },
+  {
+    id: 12,
     Image: "skills/motion.webp",
     name: "Framer Motion",
   },
   {
-    id: 12,
+    id: 13,
     Image: "skills/AOS.webp",
     name: "AOS",
   },
