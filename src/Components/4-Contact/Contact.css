@@ -41,10 +41,21 @@
   2. Form
 =============*/
 
-
 .contact label {
   color: var(--subtitle);
 }
+
+.name-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.name-label {
+  margin-right: 1.5rem;
+}
+
+#name,
 #email,
 #message {
   all: unset;
@@ -57,6 +68,7 @@
   transition: 0.3s;
   font-size: 1.1rem;
 }
+.light #name,
 .light #email,
 .light #message {
   background-color: rgba(255, 255, 255, 0.15);
@@ -64,15 +76,19 @@
   box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.32);
   color: #232324;
 }
+#name:focus,
 #email:focus,
 #message:focus,
+#name:hover,
 #email:hover,
 #message:hover {
   border: 1px solid rgb(45, 212, 191);
 }
 
+.light #name:focus,
 .light #email:focus,
 .light #message:focus,
+.light #name:hover,
 .light #email:hover,
 .light #message:hover {
   border: 1px solid rgb(78, 80, 80);
@@ -111,7 +127,7 @@
   3. Animation
 =================*/
 .success-animation {
-height: 2.7rem;
+  height: 2.7rem;
 }
 .contact-animation {
   height: 355px;
@@ -133,6 +149,7 @@ height: 2.7rem;
     flex-direction: column;
     align-items: start;
   }
+  #name,
   #email,
   #message {
     width: 100%;
@@ -146,6 +163,7 @@ height: 2.7rem;
   }
 }
 @media (min-width: 701px) and (max-width: 1200px) {
+  #name,
   #email,
   #message {
     width: 16rem;

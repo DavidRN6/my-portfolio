@@ -7,7 +7,7 @@ import contactUs from "../../animations/contact us.json";
 
 function Contact() {
   // Formspree form
-  const [state, handleSubmit] = useForm("mzzzlrvw");
+  const [state, handleSubmit] = useForm("mdazaaka");
 
   return (
     <section className="contact" id="contact">
@@ -24,6 +24,14 @@ function Contact() {
 
       <div className="field">
         <form onSubmit={handleSubmit}>
+          <div className="name-field">
+            <label htmlFor="name" className="name-label">
+              Your Name:
+            </label>
+            <input autoComplete="off" type="text" name="name" id="name" />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
+          </div>
+
           <div>
             <label htmlFor="email">Email Address:</label>
             <input autoComplete="off" type="email" name="email" id="email" />
@@ -48,17 +56,20 @@ function Contact() {
             {state.submitting ? "Sending..." : "Send"}
           </button>
 
-          {state.succeeded && <p className="after-submit">
-            <Lottie loop={false} className="success-animation" animationData={successAnimation} />
-            Your message has been sent successfully
-            </p>}
+          {state.succeeded && (
+            <p className="after-submit">
+              <Lottie
+                loop={false}
+                className="success-animation"
+                animationData={successAnimation}
+              />
+              Your message has been sent successfully
+            </p>
+          )}
         </form>
 
         <div className="animation">
-          <Lottie
-            className="contact-animation"
-            animationData={contactUs}
-          />
+          <Lottie className="contact-animation" animationData={contactUs} />
         </div>
       </div>
     </section>
