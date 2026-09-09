@@ -53,8 +53,10 @@ main {
 .project {
   display: flex;
   justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
   flex-wrap: wrap;
-  column-gap: 16px;
+  column-gap: 24px;
   row-gap: 2rem;
 }
 .card {
@@ -110,6 +112,7 @@ main {
 }
 .link .arrow {
   font-size: 0.9rem;
+  font-weight: bold;
   color: var(--blue);
 }
 
