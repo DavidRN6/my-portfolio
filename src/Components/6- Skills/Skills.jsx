@@ -1,5 +1,5 @@
 import { PiHeadCircuitFill } from "react-icons/pi";
-import "./Skills.css";
+import "./skills.css";
 
 const skillItem = [
   {
@@ -72,30 +72,29 @@ const skillItem = [
 function Skills() {
   return (
     <section className="skills" id="skills">
-        <div className="content">
+      <div className="content">
+        <h2 className="skills-title">
+          <span className="skill-icon">
+            <PiHeadCircuitFill />
+          </span>
+          Skills
+        </h2>
+        <p>
+          Here are some of the technologies and tools I have worked with during
+          my development journey.
+        </p>
 
-            <h2 className="skills-title">
-                <span className="skill-icon"><PiHeadCircuitFill /></span>
-                Skills
-            </h2>
-            <p>
-                Here are some of the technologies and tools I have worked with during my development journey.
-            </p>
-
-            <div className="skills-list">
-                {
-                    skillItem.map((item) => (
-                        <div className="skill-item" key={item.id}>
-                            <img className="skill-img" src={item.Image} alt={item.name} />
-                            <h3>{item.name}</h3>
-                        </div>
-                    ))
-                }
+        <div className="skills-list">
+          {skillItem.map((item) => (
+            <div className="skill-item" key={item.id}>
+              <img className="skill-img" src={item.Image} alt={item.name} />
+              <h3>{item.name}</h3>
             </div>
-
+          ))}
         </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
