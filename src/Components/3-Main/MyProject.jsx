@@ -15,7 +15,7 @@ export const myProject = [
     category: "react",
     info: "Created a responsive landing page for Forsan Al Taafi, a rehabilitation hospital specializing in addiction treatment and mental health care, with a modern design that clearly presents its services, facilities, and patient-focused approach.",
     image: "projects/recovery.webp",
-    link: "https://hospital-system-pi-eight.vercel.app/",
+    link: "https://www.recoveryknights.com/",
     code: "https://github.com/DavidRN6/",
     allProjects: true,
   },
